@@ -1,0 +1,6 @@
+ apiKey: "AIzaSyCCzViDU4P5pp9BEaBJCkNup0Y08xNZ_t8",
+  authDomain: "njm-r3d.firebaseapp.com",
+  projectId: "njm-r3d",
+  storageBucket: "njm-r3d.appspot.com",
+  messagingSenderId: "918404865082",
+  appId: "1:918404865082:web:a5389efcc7cc28b42e2903"
