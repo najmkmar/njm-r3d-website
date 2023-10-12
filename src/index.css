@@ -1,69 +1,124 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Tajawal", sans-serif;
+  background: #e6e6e6;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.header {
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0);
+}
+
+.main-container {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.image-style {
+  width: 30vh;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.container-section-1 {
+  overflow: hidden;
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-section-2 {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Button {
+  padding: 10px 20px;
+  width: 55vw;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+  cursor: auto; /* Remove pointer cursor */
+  font-size: 1.8em;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.Button-1 {
+  color: rgb(5, 5, 158);
+  border: 2px solid rgb(5, 5, 158);
+  transition: all 0.3s ease; /* Add a smooth transition for all properties */
+}
+
+.Button-1:hover {
+  color: white;
+  background: rgb(5, 5, 158);
+  transform: scale(1.1);
+}
+
+.Button-2 {
+  color: red;
+  border: 2px solid red;
+  transition: all 0.3s ease;
+}
+
+.Button-2 {
+  color: red;
+  border: 2px solid red;
+  transition: all 0.3s ease;
+}
+
+.Button-2:hover {
+  color: white;
+  background: red;
+  transform: scale(1.1);
+}
+
+.Button-3 {
+  color: rgb(0, 139, 0);
+  border: 2px solid rgb(0, 139, 0);
+  transition: all 0.3s ease;
+}
+
+.Button-3:hover {
+  color: white;
+  background: rgb(0, 139, 0);
+  transform: scale(1.1);
+}
+
+.Button-4 {
+  color: rgb(117, 117, 117);
+  border: 2px solid rgb(117, 117, 117);
+  transition: all 0.3s ease;
+}
+
+.Button-4:hover {
+  color: white;
+  background: rgb(117, 117, 117);
+  transform: scale(1.1);
+}
+/* I got the classe names from dev tools */
+
+@media only screen and (max-width: 600px) {
 }

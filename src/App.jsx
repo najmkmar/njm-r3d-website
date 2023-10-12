@@ -1,10 +1,16 @@
-function App() {
+import Home from "./Home";
+import Chat from "./Chat";
+import { Routes, Route } from "react-router-dom";
 
+function App() {
   return (
     <>
-    hello world :
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/chat" element={<Chat />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
