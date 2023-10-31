@@ -12,7 +12,7 @@ function Home() {
         <Link to="/chat" className="Button Button-1">
           <span className="Button__inner">⚡ chatter avec r3d</span>
         </Link>
-        <Link to="/another-page" className="Button Button-2">
+        <Link to="/generate" className="Button Button-2">
           <span className="Button__inner">🎨 generer avec r3d</span>
         </Link>
         <Link to="/another-page" className="Button Button-3">
