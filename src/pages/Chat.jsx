@@ -118,7 +118,6 @@ function App() {
           }
         >
           {messages.map((message, i) => {
-            console.log(message);
             return <Message key={i} model={message} />;
           })}
         </MessageList>
